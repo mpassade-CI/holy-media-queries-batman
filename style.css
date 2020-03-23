@@ -49,3 +49,44 @@
   width: 100vw;
   background-color: #f08a4b;
 }
+
+@media (max-width: 699px){
+#middle {
+  flex-direction: column;
+}
+#nav {
+  width: 100vw;
+  height: 12vh;
+}
+#main {
+  flex-direction: column;
+  width: 100vw;
+  height: 48vh;
+}
+#articles {
+  width: 100vw;
+  height: 35vh;
+}
+#ads {
+  width: 100vw;
+  height: 13vh;
+}
+}
+
+@media (min-width: 700px) and (max-width: 1099px){
+#middle {
+  flex-direction: column;
+}
+#nav {
+  width: 100vw;
+  height: 12vh;
+}
+#main {
+  width: 100vw;
+  height: 48vh;
+}
+#articles, #ads {
+  width: 50vw;
+  height: 48vh;
+}
+}
